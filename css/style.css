@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    margin: 0 auto;
+    background-image:url('../img/background.jpg');
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: rgba(64, 34, 24, 0.7);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+form#form {
+    background-color: rgba(64, 34, 24,0.7);
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    font-weight: bold;
+    width: 35%;
+    height: max-content;
+    border-radius: 6px;
+}
+.formDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.SameWidth {
+    width: 55%;
+}
+input#BookName {
+    width: 53.8%;
+}
+button#submit {
+    background-color: #C68B59;
+    color: #eee;
+    font-weight: bold;
+    font-size: 17px;
+}
+div#TableContainer {
+    background-color: rgba(64, 34, 24,0.7);
+    padding: 2%;
+    color: #eee;
+    border-radius: 6px;
+    width: 50%;
+}
+table#rendering {
+    border: solid 1px;
+    width: 100%;
+    font-weight: bold;
+}
+tr {
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+th {
+    border: solid 1px;
+    width: 32.9%;
+}
+td {
+    border: solid 1px;
+    width: 32.9%;
+    text-align: center;
+}
+div#Total {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 17px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(64, 34, 24,0.7);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1% 0;
+    font-weight: bold;
+    font-size: 15px;
+}
