@@ -49,12 +49,17 @@ button#submit {
     font-weight: bold;
     font-size: 17px;
 }
+button#submit:hover{
+    background-color: #f3b986;
+    color: rgb(15, 15, 15);
+}
 div#TableContainer {
     background-color: rgba(64, 34, 24,0.7);
     padding: 2%;
     color: #eee;
     border-radius: 6px;
     width: 50%;
+    text-align: center;
 }
 table#rendering {
     border: solid 1px;
@@ -81,6 +86,18 @@ div#Total {
     margin-top: 2%;
     font-weight: bold;
     font-size: 17px;
+}
+button#ClearBooks {
+    background-color: #C68B59;
+    color: white;
+    font-weight: bold;
+    padding: 0.5%;
+    width: 50%;
+    margin-top: 4%;
+}
+button#ClearBooks:hover{
+    background-color: #f3b986;
+    color: rgb(15, 15, 15);
 }
 footer {
     position: absolute;

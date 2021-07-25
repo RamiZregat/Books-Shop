@@ -97,6 +97,7 @@ function TotalPages(){
 }
 
 
+
 function handlesubmit(event){
     event.preventDefault();
     let newName=event.target.BookName.value;
@@ -109,5 +110,15 @@ function handlesubmit(event){
     location.reload();
 
 }
+
+
+let clearbtn=document.getElementById('ClearBooks')
+clearbtn.addEventListener('click',handleClearBtn)
+
+function handleClearBtn(){
+    localStorage.clear();
+    location.reload();
+}
+
 TableHeader()
 getData()
